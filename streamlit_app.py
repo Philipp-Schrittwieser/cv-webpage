@@ -1,13 +1,10 @@
 import streamlit as st
 
-st.title("My new app ❤️", anchor=False)
-st.header("Ich bin eine neue Überschrift 🐾", anchor=False)
-st.subheader("Noch eine kleinere Überschrift 🐈", anchor=False)
-st.write("Das ist meine Streamlit-App ")
+left, right = st.columns(2)
 
-st.markdown("<p>Ich bin ein Text</p>", unsafe_allow_html=True)
+left.image("picture.jpg", width=250)
 
-st.markdown("<a href='https://www.google.at'>Link</a>", unsafe_allow_html=True)
+right.header("Vorname Nachname")
 
 st.header("IT-Kompetenzen", anchor=False, divider="blue")
 
