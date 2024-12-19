@@ -1,6 +1,7 @@
 import streamlit as st
 from pathlib import Path
 
+
 st.markdown("<style> .stAppHeader {display:none;} ul {list-style-type: none; } </style>", unsafe_allow_html=True)
 
 def get_file_content_as_bytes(file_path):
